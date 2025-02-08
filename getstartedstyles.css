@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3E8FF; /* Light Lavender */
+    color: #4B0082; /* Deep Violet */
+}
+
+/* 🌟 Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #E6D6FF; /* Soft Purple */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #5A3EAF;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* 📌 Who Can Use This? */
+.who-can-use {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.roles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.role {
+    width: 30%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(120, 81, 169, 0.2);
+}
+
+.role h3 {
+    color: #6A5ACD;
+}
+
+/* 🏡 How It Works Section */
+.how-it-works {
+    text-align: center;
+    padding: 50px 20px;
+    background: #EDE1FF;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.step {
+    width: 30%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(120, 81, 169, 0.2);
+}
+
+.step h3 {
+    color: #6A5ACD;
+}
+
+/* 🚀 Call to Action */
+.cta-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #F3E8FF;
+}
+
+.cta-section h2 {
+    color: #4B0082;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+}
+
+/* 📞 Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #6A5ACD;
+    color: white;
+}
