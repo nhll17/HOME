@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a Person - HOME</title>
+    <link rel="stylesheet" href="reportstyles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC04f54ny3CkXEXEPRcz8bXgVk4-9Em4EA&libraries=places"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Report a Person in Need</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="name">Name (if known):</label>
+            <input type="text" id="name" name="name" placeholder="Enter name (if known)">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter age">
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Search or select on the map">
+            <button type="button" onclick="getCurrentLocation()">📍 Use My Location</button>
+
+            <div id="map"></div>
+
+            <label for="photo">Upload Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+
+            <label for="medical">Immediate Medical Assistance Required?</label>
+            <select id="medical" name="medical">
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+            </select>
+
+            <label for="condition">Physical & Mental Condition:</label>
+            <textarea id="condition" name="condition" rows="4" placeholder="Describe condition"></textarea>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="3" placeholder="Any additional details"></textarea>
+
+            <button type="submit">Submit Report</button>
+        </form>
+    </div>
+
+    <script src="reportscripts.js"></script>
+</body>
+</html>
+
+
