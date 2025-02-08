@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Dashboard</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC04f54ny3CkXEXEPRcz8bXgVk4-9Em4EA&libraries=places"></script>
+    <link rel="stylesheet" href="volunteerdashboardstyles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Volunteer Dashboard</h2>
+
+        <!-- 📂 Case List Section -->
+        <div class="cases-container">
+            <h3>Assigned Cases</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Needs</th>
+                        <th>Priority</th>
+                        <th>Status</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody id="caseList"></tbody>
+            </table>
+        </div>
+
+        <!-- 🗺️ Google Map for Tracking -->
+        <div id="map"></div>
+
+        <!-- 📝 Notes & Comments Section -->
+        <div class="notes-container">
+            <h3>Add Notes</h3>
+            <textarea id="volunteerNotes" placeholder="Enter notes..."></textarea>
+            <button onclick="saveNotes()">Save Notes</button>
+        </div>
+
+        <!-- 🚨 Emergency Assistance -->
+        <div class="emergency-container">
+            <h3>Emergency Assistance</h3>
+            <button onclick="sendEmergencyAlert()">🚨 Alert NGO / Authorities</button>
+        </div>
+    </div>
+
+    <script src="volunteerdashboardscripts.js"></script>
+</body>
+</html>
