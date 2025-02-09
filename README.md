@@ -11,7 +11,7 @@
 - Member 3: Amisha Shaney - Govt Model Engineering College
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+ https://amishashaney.github.io/HOME/
 
 ### Project Description
 Our project is a community-driven platform designed to support homeless and underprivileged individuals by connecting them with nearby orphanages, old age homes, and volunteer services. Users can easily add details about a person in need, and the system automatically notifies relevant organizations in the vicinity to provide assistance. With features like volunteer transportation services and real-time notifications, the platform streamlines the process of offering help, fostering collaboration between communities and support organizations to create a more inclusive and compassionate society.
