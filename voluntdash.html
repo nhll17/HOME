@@ -31,7 +31,7 @@
                         <th>Name</th>
                         <th>Age</th>
                         <th>Gender</th>
-                        <th>Needs</th>
+                        <th>Med Needs</th>
                         <th>Type of Help</th>
                         <th>Status</th>
                         <th>Location</th>
@@ -53,6 +53,7 @@
                         <th>Location</th>
                         <th>Accepted By</th>
                         <th>Contact</th>
+                        <th>Finished</th>
                     </tr>
                 </thead>
                 <tbody id="acceptedCases"></tbody>
@@ -73,9 +74,6 @@
         <div class="emergency-container">
             <!-- Add content here if needed -->
         </div>
-
-        <!-- 🚪 Logout Button at the Bottom -->
-        
     </div>
 
     <script>
@@ -126,14 +124,8 @@
                     <td>${data.gender || "N/A"}</td>
                     <td>${data.medical || "N/A"}</td>
                     <td>${data.typeOfHelp || "General Assistance"}</td>
-                    <td>
-                        <select onchange="updateStatus('${doc.id}', this.value)">
-                            <option value="Pending" selected>Pending</option>
-                            <option value="In Progress">In Progress</option>
-                            <option value="Needs More Help">Needs More Help</option>
-                            <option value="Completed">Completed</option>
-                        </select>
-                    </td>
+                    <td>${data.status}</td>
+                   
                     <td><button onclick="showLocation('${data.location}')">📍 View Location</button></td>
                 `;
 
@@ -162,6 +154,7 @@
                     <td><button onclick="showLocation('${data.location}')">📍 View Location</button></td>
                     <td>${data.acceptedBy || "Unknown Organization"}</td>
                     <td>${data.organizationPhone || "No Contact"}</td>
+                    <td><input type="checkbox" onchange="removeCase('${doc.id}', this.checked)"></td>
                 `;
 
                 acceptedCases.appendChild(row);
@@ -220,12 +213,25 @@
             });
         }
 
+        // ✅ Remove Case when Checkbox is Ticked
+        async function removeCase(reportId, isChecked) {
+            if (isChecked) {
+                try {
+                    await db.collection("report").doc(reportId).delete();
+                    alert("Case finished successfully");
+                    fetchAcceptedCases(); // Refresh accepted cases
+                } catch (error) {
+                    console.error("Error removing case:", error);
+                }
+            }
+        }
+
         // ✅ Logout Function
         function logout() {
             // Clear any stored session data if applicable
-            
+            localStorage.clear();
             // Redirect to home page
-            window.location.href = "index.html";
+            window.location.href = "homepage.html";
         }
 
         // ✅ Load Data on Page Load
