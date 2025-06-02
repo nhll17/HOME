@@ -78,26 +78,10 @@ volunteer signup
 volunteer dashboard
 
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
 
-![WhatsApp Image 2025-02-09 at 7 21 28 AM](https://github.com/user-attachments/assets/be40f042-c3e8-434f-bc4c-99959edacfc0)
-![WhatsApp Image 2025-02-09 at 7 21 27 AM](https://github.com/user-attachments/assets/5a3b58a6-c027-49f5-b886-c52e092dfaaf)
-![WhatsApp Image 2025-02-09 at 7 21 26 AM](https://github.com/user-attachments/assets/9c9c240e-bcbb-4ae1-81d9-c363a81d447b)
-![WhatsApp Image 2025-02-09 at 7 11 46 AM](https://github.com/user-attachments/assets/0890d7ae-3a62-4a00-b40a-b576c11262db)
-![WhatsApp Image 2025-02-09 at 7 11 45 AM](https://github.com/user-attachments/assets/c0b3a6cb-cf12-442a-bfb5-15a5d7f1f1ae)
 ![WhatsApp Image 2025-02-09 at 7 02 03 AM (1)](https://github.com/user-attachments/assets/6f136837-c467-4adc-bbff-dfc05d35571b)
 ![WhatsApp Image 2025-02-09 at 7 02 02 AM](https://github.com/user-attachments/assets/f38d437d-d58b-46fe-be89-bba5a41f59ab)
 ![WhatsApp Image 2025-02-09 at 7 02 01 AM (1)](https://github.com/user-attachments/assets/66548363-2454-4dce-a8f7-2d4e746c43b5)
@@ -119,8 +103,6 @@ For Hardware:
 https://drive.google.com/file/d/1mPOgjSUBJgkTvk-3Cs_J5qPDYGjUMJH6/view?usp=sharing 
 Our project demo highlights how the platform connects individuals in need with nearby support organizations and volunteers. Users can easily input details about a homeless or underprivileged person, including location and needs, which triggers real-time notifications to nearby orphanages, old-age homes, and support organizations. The demo also showcases the volunteer service feature, where volunteers can register, view assistance requests, and accept tasks seamlessly. With a secure and efficient backend, the platform ensures smooth data flow and fosters collaboration, simplifying the process of providing help and making a meaningful impact in the community.
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - AMISHA SHANEY: FRONTEND,MAP API
