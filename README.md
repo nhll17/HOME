@@ -52,16 +52,9 @@ Interactive Maps:
 
 
 
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
 
 ### Project Documentation
-For Software:
+
 
 # Screenshots (Add at least 3)
 ![WhatsApp Image 2025-02-09 at 7 02 02 AM](https://github.com/user-attachments/assets/3709527d-46e9-4d58-b02f-5fa24c972b59)
@@ -98,8 +91,8 @@ volunteer dashboard
 ![WhatsApp Image 2025-02-09 at 7 01 56 AM](https://github.com/user-attachments/assets/eecd1261-d430-42a6-aa25-59720f0d4135)
 
 
-### Project Demo
-# Video
+### Project Demo Video
+
 https://drive.google.com/file/d/1mPOgjSUBJgkTvk-3Cs_J5qPDYGjUMJH6/view?usp=sharing 
 Our project demo highlights how the platform connects individuals in need with nearby support organizations and volunteers. Users can easily input details about a homeless or underprivileged person, including location and needs, which triggers real-time notifications to nearby orphanages, old-age homes, and support organizations. The demo also showcases the volunteer service feature, where volunteers can register, view assistance requests, and accept tasks seamlessly. With a secure and efficient backend, the platform ensures smooth data flow and fosters collaboration, simplifying the process of providing help and making a meaningful impact in the community.
 
