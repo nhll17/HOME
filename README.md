@@ -1,4 +1,4 @@
-# [!HOME] 🎯
+# !HOME 🎯
 
 
 ## Basic Details
